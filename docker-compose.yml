@@ -24,6 +24,9 @@ services:
         condition: service_healthy
     environment:
       - RABBITMQ_HOST=rabbitmq
+    tty: true
+    volumes:
+      - .:/app
 
 volumes:
   rabbitmq_data:
