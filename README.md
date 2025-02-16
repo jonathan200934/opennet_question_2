@@ -5,14 +5,14 @@ A modular Python application demonstrating RabbitMQ message queue implementation
 ## Project Structure
 
 ```
-rabbitmq-python/
+opennet_question_2/
 ├── docker-compose.yml     # Docker Compose configuration
 ├── Dockerfile            # Docker image configuration
+├── README.md             # This file
 ├── requirements.txt      # Python dependencies
-├── main.py              # Example implementation
+├── main.py               # Example implementation
 └── rabbitmq/            # Main package directory
-    ├── __init__.py      # Package initialization
-    ├── base.py          # Base RabbitMQ connection handler
+    ├── base.py           # Base RabbitMQ connection handler
     ├── consumer.py      # Message consumer implementation
     └── producer.py      # Message producer implementation
 ```
