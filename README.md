@@ -69,3 +69,9 @@ To add new features or modify existing ones:
 2. Ensure to maintain the connection handling patterns from the base class
 3. Add appropriate error handling and logging
 4. Test your changes both locally and in Docker environment
+
+### GIF Demo
+![Kapture 2025-02-16 at 15 44 20](https://github.com/user-attachments/assets/f946ca61-f46c-44c5-b9e4-631ffae7d6f5)
+
+After a few second, it will show the messages sent and received
+![Kapture 2025-02-16 at 15 44 20](https://github.com/user-attachments/assets/61513c11-2191-4827-ab04-717b69913732)
